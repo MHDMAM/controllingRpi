@@ -1,0 +1,20 @@
+extends ../layouts/master
+
+block title
+
+block metas
+
+block scripts
+	script(src='js/apps/leds.js')
+	script(src='js/services/ledsServices/ledService.js')
+
+block content
+	div(ng-controller='ledCtrl')
+		h2 leds!!
+
+		.row-fluid
+			.col-md-2.glyphicon.glyphicon-off &nbsp Enable Led:
+			.col-md-1(toggle-switch, model='leds.pin12')
+			//- .col-md-2(ng-bind='leds.pin12')
+			.col-md-2 {{leds.pin12}}
+

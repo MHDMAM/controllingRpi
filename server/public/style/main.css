@@ -1,0 +1,12 @@
+
+/*override angular-toggle-switch css*/
+
+.switch .switch-left {
+  color: #fff;
+  background: #2d6ca2;
+}
+
+.switch .switch-right {
+  color: #fff;
+  background: #b92c28;
+}

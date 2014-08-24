@@ -1,0 +1,14 @@
+{
+	"server": {
+		"port": 3000,
+		"url": "http://localhost"
+	},
+	"app": {
+		"projectName": "Controlling Rpi",
+		"companyName": "",
+		"systemEmail": "mhd.mam@gmail.com",
+		"cryptoKey": "$erVeRblu3"
+	},
+	"DOC_PATH": "./public/docs"
+
+}
